@@ -1,0 +1,7 @@
+print("=== Program Biodata ===")
+nama = input("Masukkan nama Anda: ")
+nim = input("Masukkan NIM Anda: ")
+biodata = nama + " - " + nim
+
+print(f"Status: Setup Berhasil!")
+print(f"Biodata Mahasiswa: {biodata}")
