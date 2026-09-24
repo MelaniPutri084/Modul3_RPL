@@ -1,7 +1,7 @@
-print("=== Program Biodata ===")
-nama = input("Masukkan nama Anda: ")
-nim = input("Masukkan NIM Anda: ")
-biodata = nama + " - " + nim
+print("=== Program Pemesanan Minuman ===")
+minuman = input("Masukkan nama minuman: ")
+ukuran = input("Masukkan ukuran (Small/Large): ")
+pesanan = minuman + " - " + ukuran
 
 print(f"Status: Setup Berhasil!")
-print(f"Biodata Mahasiswa: {biodata}")
+print(f"Detail Pesanan: {pesanan}")
